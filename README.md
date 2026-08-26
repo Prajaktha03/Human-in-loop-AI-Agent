@@ -33,9 +33,9 @@ Most automation systems treat rejection as the end.
 This workflow treats rejection as input.
 When a reviewer rejects an email, the system doesn't simply stop.
 The rejected draft is handed to a separate Revision Agent, which produces an improved version for another review.
+**Conceptually:**
 
-Conceptually:
-
+```text
 Draft
   │
   ▼
@@ -51,4 +51,11 @@ Human Judgment
               ▼
         Human Judgment
 
-This makes the workflow iterative rather than one-directional.
+
+### 🔐 Security
+
+* API keys
+* OAuth tokens
+* Gmail credentials
+* Google credentials
+* n8n credentials
