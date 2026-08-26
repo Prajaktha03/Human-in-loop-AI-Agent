@@ -1,0 +1,80 @@
+:root {
+	/* Typography */
+	--font-family: 'Open Sans', sans-serif;
+	--font-weight-normal: 400;
+	--font-weight-bold: 600;
+
+	--font-size-body: 14px;
+	--font-size-label: 14px;
+	--font-size-test-notice: 12px;
+	--font-size-input: 14px;
+	--font-size-header: 24px;
+	--font-size-paragraph: 14px;
+	--font-size-link: 13px;
+	--font-size-error: 12px;
+	--font-size-html-h1: 30px;
+	--font-size-html-h2: 24px;
+	--font-size-html-h3: 20px;
+	--font-size-html-h4: 18px;
+	--font-size-html-h5: 16px;
+	--font-size-html-h6: 14px;
+	--font-size-subheader: 15px;
+
+	/* Beige Luxury Theme */
+	--color-background: #f5efe6;
+	--color-card-bg: #fffdf9;
+	--color-card-border: #d8cfc3;
+	--color-card-shadow: rgba(0, 0, 0, 0.08);
+
+	/* Text Colors */
+	--color-header: #111111;
+	--color-label: #222222;
+	--color-input-text: #111111;
+	--color-html-text: #222222;
+	--color-header-subtext: #555555;
+	--color-link: #4a4a4a;
+	--color-html-link: #8b6b4e;
+
+	/* Inputs */
+	--color-input-border: #cfc5b8;
+	--color-focus-border: #8b6b4e;
+
+	/* Buttons */
+	--color-submit-btn-bg: #8b6b4e;
+	--color-submit-btn-text: #ffffff;
+	--color-clear-button-bg: #6b6b6b;
+
+	/* Status Colors */
+	--color-error: #c62828;
+	--color-required: #8b6b4e;
+
+	/* Notice */
+	--color-test-notice-text: #8b6b4e;
+	--color-test-notice-bg: #f8f3ed;
+	--color-test-notice-border: #d8cfc3;
+
+	/* Border Radius */
+	--border-radius-card: 14px;
+	--border-radius-input: 10px;
+	--border-radius-clear-btn: 50%;
+	--card-border-radius: 14px;
+
+	/* Spacing */
+	--padding-container-top: 32px;
+	--padding-card: 28px;
+	--padding-test-notice-vertical: 12px;
+	--padding-test-notice-horizontal: 24px;
+	--margin-bottom-card: 20px;
+	--padding-form-input: 14px;
+	--card-padding: 28px;
+	--card-margin-bottom: 20px;
+
+	/* Dimensions */
+	--container-width: 500px;
+	--submit-btn-height: 52px;
+	--checkbox-size: 18px;
+
+	/* Effects */
+	--box-shadow-card: 0 8px 30px var(--color-card-shadow);
+	--opacity-placeholder: 0.65;
+}
