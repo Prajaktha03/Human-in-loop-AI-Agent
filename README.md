@@ -50,12 +50,3 @@ Human Judgment
               │
               ▼
         Human Judgment
-
-
-### 🔐 Security
-
-* API keys
-* OAuth tokens
-* Gmail credentials
-* Google credentials
-* n8n credentials
