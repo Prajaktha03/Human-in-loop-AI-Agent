@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "response": {
+      "type": "string",
+      "description": "The agent's conversational reply to the customer. This should be professional, friendly, concise, and helpful."
+    },
+    "escalation_needed": {
+      "type": "boolean",
+      "description": "Set to true if the issue requires human agent intervention. Default is false."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional internal notes about the conversation turn, such as missing info requested or actions taken."
+    }
+  },
+  "required": [
+    "response"
+  ]
+}
