@@ -50,3 +50,22 @@ Human Judgment
               │
               ▼
         Human Judgment
+
+`````
+
+### 🔐 Security
+Never commit:
+
+API keys
+OAuth tokens
+Gmail credentials
+Google credentials
+n8n credentials
+
+### 👩‍💻 About
+
+Prajaktha
+Analyst · Automation Enthusiast 
+
+### Generate → Review → Improve → Approve → Execute
+That is the principle behind this project.
