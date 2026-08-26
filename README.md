@@ -64,7 +64,7 @@ n8n credentials
 
 ### 👩‍💻 About
 
-Prajaktha
+##### Prajaktha
 Analyst · Automation Enthusiast 
 
 ### Generate → Review → Improve → Approve → Execute
