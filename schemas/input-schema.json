@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "customer_message": {
+      "type": "string",
+      "description": "The latest message from the customer. This is the primary input the agent must respond to."
+    },
+    "conversation_history": {
+      "type": "string",
+      "description": "Optional. A summary or transcript of the conversation so far, used to maintain context across turns."
+    },
+    "customer_id": {
+      "type": "string",
+      "description": "Optional. The customer's unique identifier if known."
+    },
+    "order_id": {
+      "type": "string",
+      "description": "Optional. The order number or ID if the customer has provided it."
+    }
+  },
+  "required": [
+    "customer_message"
+  ]
+}
