@@ -14,3 +14,41 @@ The workflow has three intelligent roles:
 | 🧠 **Sales Agent** | Creates the first email |
 | 👤 **Human Reviewer** | Decides whether it is ready |
 | 🔧 **Revision Agent** | Improves rejected drafts |
+
+### 📨 From Lead to Conversation
+
+A lead provides basic information through an n8n form:
+
+Name
+Email
+Company
+Budget
+Requirement
+The information is recorded in Google Sheets and becomes the context for the AI.
+The Sales Agent then transforms those structured details into a personalized email rather than relying on a fixed template.
+
+### 🔍 The Interesting Part: Rejection
+
+Most automation systems treat rejection as the end.
+This workflow treats rejection as input.
+When a reviewer rejects an email, the system doesn't simply stop.
+The rejected draft is handed to a separate Revision Agent, which produces an improved version for another review.
+
+Conceptually:
+
+Draft
+  │
+  ▼
+Human Judgment
+  │
+  ├── ✓ Good enough → Delivery
+  │
+  └── ✕ Not good enough
+              │
+              ▼
+         AI Revision
+              │
+              ▼
+        Human Judgment
+
+This makes the workflow iterative rather than one-directional.
