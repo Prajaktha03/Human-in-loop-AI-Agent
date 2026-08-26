@@ -9,7 +9,8 @@ The system turns raw lead information into a personalized sales email, pauses fo
 
 The workflow has three intelligent roles:
 
-    Role	                  Responsibility
-🧠 Sales Agent        	Creates the first email
-👤 Human Reviewer      	Decides whether it is ready
-🔧 Revision Agent	      Improves rejected drafts.
+| Role | Responsibility |
+|---|---|
+| 🧠 **Sales Agent** | Creates the first email |
+| 👤 **Human Reviewer** | Decides whether it is ready |
+| 🔧 **Revision Agent** | Improves rejected drafts |
